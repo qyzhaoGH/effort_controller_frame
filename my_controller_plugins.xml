@@ -1,0 +1,14 @@
+<library path="lib/libmy_controller">
+
+  <class name="my_controller/JointPositionController" type="my_controller::JointPositionController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The JointPositionController tracks position commands. It expects a EffortJointInterface type of hardware interface.
+    </description>
+  </class>
+ 
+  <class name="my_controller/JointController" type="my_controller::JointController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The JointControllerInterface tracks effort commands. It expects a EffortJointInterface type of hardware interface.
+    </description>
+  </class>
+</library>
